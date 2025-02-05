@@ -88,7 +88,7 @@ const messages = [
 chrome.runtime.onInstalled.addListener(() => {
     chrome.alarms.create('reminder', {
       delayInMinutes: 1,  
-      periodInMinutes: 1
+      periodInMinutes: 5
     });
   });
   
